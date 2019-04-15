@@ -1,0 +1,52 @@
+.bgimage {
+  background-image: url('https://www.wallpaperup.com/uploads/wallpapers/2015/02/01/607568/d3c471f41e95fa2675d77ffb43d5e7cd-700.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.mygrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  font-size: 100px;
+  position: relative;
+  top: 225px;
+  opacity: 0.9;
+}
+
+.form {
+  position: relative;
+  top: 250px;
+  color: #7EB09B;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .form {
+    position: relative;
+    top: 200px;
+    color: #7EB09B;
+  }
+  .form button[type='submit'] {
+    position: relative;
+    top: 10px;
+  }
+  .title {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 200px;
+    margin: 10px;
+  }
+}

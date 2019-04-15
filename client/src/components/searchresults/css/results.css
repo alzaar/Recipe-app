@@ -1,0 +1,9 @@
+.results {
+  font-family: 'Cardo', serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.found {
+  margin-top: 70px;
+}

@@ -1,0 +1,15 @@
+.signup-form {
+  font-family: 'Cardo', serif;
+  height: 100vh;
+}
+
+.wrapper {
+  border: 1px solid #F4F4ED;
+  margin: 10px;
+  position: relative;
+  top: 45px;
+}
+
+.signup-button {
+  margin-top: 20px !important
+}

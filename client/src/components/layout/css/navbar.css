@@ -1,0 +1,9 @@
+.mynavbar {
+  background: #7EB09B;
+  color: white;
+  font-family: 'Cardo', serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}

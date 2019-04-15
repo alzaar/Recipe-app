@@ -1,0 +1,61 @@
+.card {
+  margin: 20px;
+  font-family: 'Cardo', serif;
+  width: auto;
+  height: 370px;
+  box-shadow:  0 2px 2px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+
+.card-img {
+  width: auto;
+  height: 300px;
+}
+
+.card-body {
+  width: 360px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #media-card.card {
+    margin: 40px;
+    font-family: 'Cardo', serif;
+    width: auto;
+    height: 200px;
+    box-shadow: 10px;
+  }
+  #media-card.card:last-child {
+    margin-bottom: 65px
+  }
+  #media-img.card-img {
+    width: auto;
+    height: 200px;
+    cursor: pointer;
+  }
+  #media-body.card-body {
+    width: auto;
+  }
+  .card-title {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (width: 1024px) {
+  .card-title {
+    font-size: 15px;
+  }
+  .card-body {
+    width: auto;
+  }
+}
+
+@media only screen and (width: 768px) {
+  .card-title {
+    font-size: 8px;
+  }
+  .card-body {
+    width: auto;
+  }
+}
